@@ -1,0 +1,322 @@
+* {
+	margin: 0;
+	padding: 0;
+	/*font-size: 12px;*/
+}
+
+a {
+	text-decoration: none;
+	color: darkgray;
+}
+body{
+	 min-width: 1280px;
+}
+/*
+.head {
+	position: relative;
+	width: 100%;
+	height: 190px;
+	line-height: 90px;
+	background: rgba(0, 0, 0, 0.79);
+	z-index: 1000;
+	
+}
+*/
+.title {
+	color: white;
+	float: left;
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	margin-left: 100px;
+}
+
+.left a {
+	display: block;
+	width: 200px;
+	text-align: left;
+	margin: 0px 0 0 23px;
+	color: #396bb3;
+	margin-top: 20px;
+}
+
+.head>a {
+	margin-left: 100px;
+}
+
+.login {
+	display: block;
+	float: right;
+	margin-right: 5%;
+}
+
+.login span {
+	color: white;
+}
+
+.login a {
+	margin: 0 16px;
+}
+
+.middle {
+	position: relative;
+}
+
+.borrow {
+	display: none;
+}
+
+.left {
+	display: inline-block;
+	width: 15%;
+	height: 500px;
+	border-right: 1px black solid;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.left #operate {
+	margin-top: 20px;
+	background: #396bb3;
+	color: white;
+	height: 35px;
+	line-height: 35px;
+	display: inline-block;
+	width:90%;
+}
+
+.right {
+	display: inline-block;
+	position: absolute;
+	width: 84.9%;
+}
+
+.find {
+	position: relative;
+	margin: 15px 6%;
+	text-align: right;
+}
+
+.find span {
+	display: inline-block;
+	background: gray;
+	padding-left: 25px;
+	background: #f4f4f4;
+	border: solid 1px #c9c9c9;;
+	border-radius: 5px;
+}
+
+.find input {
+	display: inline-block;
+	/*width: 150px;*/
+	height: 30px;
+	border: none;
+	border-left: 1px solid #c9c9c9;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+button, .find button {
+	width: 50px;
+	height: 30px;
+	background-color: #396bb3;
+	color: white;
+	border: solid 1px;
+	border-radius: 4px;
+}
+
+
+
+
+
+td:{
+	width:20%;
+}
+
+.borrowbtn {
+		width: 40px;
+	height: 30px;
+	background-color: #396bb3;
+	color: white;
+	border: solid 1px;
+	border-radius: 4px;
+	background-color: #339900;
+}
+.returnbtn {
+		width: 40px;
+	height: 30px;
+	background-color: #396bb3;
+	color: white;
+	border: solid 1px;
+	border-radius: 4px;
+	background-color: #339900;
+}
+.deletebtn {
+		width: 40px;
+	height: 30px;
+	background-color: #396bb3;
+	color: white;
+	border: solid 1px;
+	border-radius: 4px;
+	background-color: #339900;
+}
+.tb {
+    width: 68%;
+    margin:0 auto;
+    margin-top:-550px;
+    border-collapse: collapse;
+}
+tr {
+	text-align: center;
+	border-top: 1px solid #c9c9c9;
+}
+
+td, th {
+	padding: 10px 0;
+}
+table{
+
+	  table-layout: fixed; 
+	
+}
+.page {
+    /* position: relative; */
+    /* top: 60%; */
+    height: 34px;
+    /* left: -10%; */
+    /* right: 3%; */
+    margin-left: 32%;
+    margin-top: 30px;
+}
+.page ul {
+	
+	width: 100%;
+	margin-left: 10%;
+/*    margin-top: 15%;*/
+  /*  position:absolute;
+    top:90%;*/
+}
+
+.page li {
+	/* float: left; */
+	display: inline;
+	/* height: 34px; */
+	line-height: 32px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.page1 {
+	width: 34px;
+	line-height: 36px;
+	color: white;
+	background-color: #396bb3;
+}
+
+.page a {
+	float: left;
+	color: #396bb3;
+	width: 34px;
+	border: 1px solid #e1e1e1;
+}
+
+.page a:hover {
+	color: #fff;
+	background-color: #396bb3;
+	border: 1px solid #396bb3;
+}
+
+.page .page_edge {
+	width: 50px;
+}
+
+.find form #find_btn {
+	width: 40px;
+	height: 30px;
+	background-color: #339900;
+	color: white;
+	border: solid 1px;
+	border-radius: 4px;
+}
+* {
+	margin: 0;
+    padding: 0;
+}
+
+.head{
+	width:100%;
+	background-color:#0B3B24;
+	text-align:center;
+	border-top:1px solid #0B3B24;
+	border-bottom:1px solid #0B3B24;
+	
+}
+div.imgs{
+ 		 
+			margin:0 auto;
+			width:70%;
+		    height:120px;
+			background:#fff url(../images/head.png) no-repeat center;
+}
+.nav{
+	display:inline-block;
+	/*margin-left:3%;*/
+	width: 8.45%;
+}
+/*
+.nav ul {
+    background: white;
+    border-top: 6px solid hsl(180, 40%, 60%);
+    width: 229px;
+    text-align: center;
+    margin: 0 auto;
+    border-right:1px solid black;
+}*/
+.nav ul li {
+	list-style-type: none;
+	/*relative positioning for list items along with overflow hidden to contain the overflowing ripple*/
+	position: relative;
+	overflow: hidden;
+	margin-bottom:5%;
+	text-align:center;
+}
+.nav ul li a  {
+    list-style-type: none;
+    position: relative;
+    overflow: hidden;
+	font: normal 14px/28px Montserrat; 
+	color: hsl(180, 40%, 40%);
+	display: block; 
+	padding: 10px 15px;
+	text-decoration: none;
+	cursor: pointer; /*since the links are dummy without href values*/
+	/*prevent text selection*/
+	user-select: none;
+	/*static positioned elements appear behind absolutely positioned siblings(.ink in this case) hence we will make the links relatively positioned to bring them above .ink*/
+	position: relative;
+}
+
+/*.ink styles - the elements which will create the ripple effect. The size and position of these elements will be set by the JS code. Initially these elements will be scaled down to 0% and later animated to large fading circles on user click.*/
+.nav .ink {
+	display: block; 
+	position: absolute;
+	background: hsl(180, 40%, 80%);
+	border-radius: 100%;
+	transform: scale(0);
+}
+/*animation effect*/
+.nav .ink.animate {animation: ripple 0.65s linear;}
+@keyframes ripple {
+	/*scale the element to 250% to safely cover the entire link and fade it out*/
+	100% {opacity: 0; transform: scale(2.5);}
+}
+.nav ul {
+    background: white;
+    border-top: 6px solid hsl(180, 40%, 60%);
+    width: 177%;
+    margin: 0 auto;
+ 	 height:600px;
+    display: inline-block;
+    border-right: 1px solid black;
+    
+}
